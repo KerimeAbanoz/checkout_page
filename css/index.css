@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0;
   padding: 0;
 }
@@ -96,7 +96,7 @@ main form {
   margin-right: 10px;
 }
 
-#user-reminder~label {
+#user-reminder ~ label {
   display: inline-block;
   margin-top: -10px !important;
 }
@@ -242,7 +242,6 @@ i {
   font-weight: bold;
 }
 
-
 @media only screen and (max-width: 1450px) {
   main {
     position: relative;
@@ -338,7 +337,7 @@ i {
     margin-right: 10px;
   }
 
-  #user-reminder~label {
+  #user-reminder ~ label {
     display: inline-block;
     margin-top: -10px !important;
   }
@@ -471,7 +470,7 @@ i {
     grid-template-columns: 100%;
     width: 90%;
     grid-template-rows: 400px 1fr;
-    grid-template-areas: "top""bottom";
+    grid-template-areas: "top" "bottom";
   }
 
   main form {

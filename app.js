@@ -45,7 +45,8 @@ products.addEventListener("click", (e) => {
           } will be deleted`
         )
       ) {
-        e.target.parentElement.parentElement.parentElement.innerHTML = "";
+        // e.target.parentElement.parentElement.parentElement.innerHTML = "";
+        e.target.closest(".product").innerHTML = "";
         calculateCardPrice();
       }
     }
@@ -68,7 +69,7 @@ products.addEventListener("click", (e) => {
     //   productTotal;
     // console.log(productTotal);
   } else if (e.target.classList.contains("remove-product")) {
-    e.target.parentElement.parentElement.parentElement.remove();
+    e.target.closest(".product").remove();
     calculateCardPrice();
   }
 });

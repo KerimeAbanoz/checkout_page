@@ -546,7 +546,6 @@ i {
   width: auto;
   margin-top: 10px;
 }
-
 .product-line-price:before {
   content: "Product Total: $";
 }
